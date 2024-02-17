@@ -3,6 +3,9 @@ package com.etraveli.refactoring;
 import java.util.HashMap;
 import java.util.Map;
 
+/* The purpose of this class is to encapsulate the logic for generating rental 
+statements, including the calculation of rental amounts and frequent enter points, 
+based on movie rental data provided by the Customer object. */
 public class RentalCalculator {
 
     private static final Map<String, Movie> movies;
