@@ -20,10 +20,10 @@ public class RefactoringAssignment {
 
         if (!result.equals(expected)) {
             throw new AssertionError("Expected: \n" + expected + "\nGot: \n" + result);
-        }
-
-        System.out.println("Success");
-
+        } else {
+			System.out.println(result);
+			System.out.println("Test result: Success");
+		}
     }
 }
 
