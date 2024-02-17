@@ -3,6 +3,9 @@ package com.etraveli.refactoring;
 import java.util.Arrays;
 import java.util.List;
 
+/* The purpose of this class is to execute a test or validation of the RentalCalculator class 
+by comparing its output with an expected result. 
+However, typically, tests would be written in separate test classes using frameworks like JUnit. */
 public class RefactoringAssignment {
 
     public RefactoringAssignment() {
