@@ -1,10 +1,9 @@
 package com.etraveli.refactoring;
 
 import java.util.List;
-/*
-	The purpose of this class is to encapsulate the information related to a customer, 
-	including their name and the movies they have rented. 
-*/
+
+/* The purpose of this class is to encapsulate the information related to a customer, 
+including their name and the movies they have rented. */
 public class Customer {
     private String name;
     private List<MovieRental> rentals;
