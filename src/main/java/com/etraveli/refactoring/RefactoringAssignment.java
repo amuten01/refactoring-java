@@ -21,9 +21,9 @@ public class RefactoringAssignment {
         if (!result.equals(expected)) {
             throw new AssertionError("Expected: \n" + expected + "\nGot: \n" + result);
         } else {
-			System.out.println(result);
-			System.out.println("Test result: Success");
-		}
+	    System.out.println(result);
+	    System.out.println("Test result: Success");
+	}
     }
 }
 
