@@ -23,8 +23,11 @@ Here are the key changes made:
     - Switch Statement: 
       Used a switch statement in calculateRentalAmount method for clarity and maintainability.
 
-	- Diagrams
-	  Added diagrams to enhance understanding of the use case and sequence
+    - Comments
+      Added comments for clarity.
+    
+    - Diagrams
+      Added diagrams to enhance understanding of the use case and sequence
 
         
 ## Diagrams
