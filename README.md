@@ -1,21 +1,30 @@
-# Refactoring Java
+## Refactoring summary
 
-The code creates an information slip about movie rentals.
-Rewrite and improve the code after your own liking.
+Here are the key changes made:
 
-Think: you are responsible for the solution, this is a solution you will have to put your name on.
+    - Package path: 
+      Added a package path for better code organization, maintainability, and scalability, while also promoting modularity, 
+      encapsulation, and reusability.    
 
-
-## Handing in the assignment
-
-Reason how you have been thinking and the decisions you took. 
-You can hand in the result any way you feel (git patch, pull-request or ZIP-file).
-Note: the Git history must be included.
+    - RentalCalculator Class: 
+      A new class RentalCalculator is introduced to encapsulate the rental calculation logic.
+    
+    - Use of StringBuilder: 
+      Changed the concatenation of strings to use StringBuilder for better performance.
+    
+    - Static Initialization Block: 
+      Initialized the movies map using a static initialization block for clarity.
+      
+    - Methods for Calculation: 
+      Introduced private methods within RentalCalculator to calculate rental amount and frequent enter points.
+    
+    - Switch Statement: 
+      Used a switch statement in calculateRentalAmount method for clarity and maintainability.
 
 
 ## To run the test:
 
 ```
-javac src/*.java
-java -cp src Main
+javac src/main/java/com/etraveli/refactoring/*.java
+java -cp src/main/java com.etraveli.refactoring.Main
 ```
